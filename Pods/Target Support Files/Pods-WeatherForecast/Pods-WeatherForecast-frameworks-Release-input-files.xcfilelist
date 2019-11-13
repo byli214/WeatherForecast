@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/EKNetWork/EKNetWork.framework
+${BUILT_PRODUCTS_DIR}/EKPlugins/EKPlugins.framework
+${BUILT_PRODUCTS_DIR}/GTMBase64/GTMBase64.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/RegExCategories/RegExCategories.framework

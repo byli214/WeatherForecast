@@ -1,0 +1,6 @@
+framework module EKNetWork {
+  umbrella header "EKNetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}

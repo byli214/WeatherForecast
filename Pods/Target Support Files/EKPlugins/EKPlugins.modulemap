@@ -1,0 +1,6 @@
+framework module EKPlugins {
+  umbrella header "EKPlugins-umbrella.h"
+
+  export *
+  module * { export * }
+}

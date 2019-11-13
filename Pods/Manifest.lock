@@ -1,0 +1,114 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.9.0)
+  - EKNetWork (1.1.7):
+    - AFNetworking
+    - EKNetWork/Assist (= 1.1.7)
+    - EKNetWork/Demand (= 1.1.7)
+    - EKNetWork/Protocol (= 1.1.7)
+    - EKNetWork/Request (= 1.1.7)
+    - EKNetWork/Tool (= 1.1.7)
+    - GTMBase64
+    - RegExCategories
+  - EKNetWork/Assist (1.1.7):
+    - AFNetworking
+    - EKNetWork/Demand
+    - EKNetWork/Protocol
+    - EKNetWork/Tool
+    - GTMBase64
+    - RegExCategories
+  - EKNetWork/Demand (1.1.7):
+    - AFNetworking
+    - EKNetWork/Protocol
+    - EKNetWork/Tool
+    - GTMBase64
+    - RegExCategories
+  - EKNetWork/Protocol (1.1.7):
+    - AFNetworking
+    - GTMBase64
+    - RegExCategories
+  - EKNetWork/Request (1.1.7):
+    - AFNetworking
+    - EKNetWork/Assist
+    - EKNetWork/Demand
+    - EKNetWork/Protocol
+    - EKNetWork/Tool
+    - GTMBase64
+    - RegExCategories
+  - EKNetWork/Tool (1.1.7):
+    - AFNetworking
+    - GTMBase64
+    - RegExCategories
+  - EKPlugins (0.9.9):
+    - EKNetWork
+    - EKPlugins/CacheManager (= 0.9.9)
+    - EKPlugins/ContactManager (= 0.9.9)
+    - EKPlugins/Extension (= 0.9.9)
+    - EKPlugins/JSWebView (= 0.9.9)
+    - EKPlugins/MediaPlayer (= 0.9.9)
+    - EKPlugins/Tool (= 0.9.9)
+  - EKPlugins/CacheManager (0.9.9):
+    - EKNetWork
+    - EKPlugins/JSWebView
+  - EKPlugins/ContactManager (0.9.9):
+    - EKNetWork
+    - EKPlugins/JSWebView
+  - EKPlugins/Extension (0.9.9):
+    - EKNetWork
+  - EKPlugins/JSWebView (0.9.9):
+    - EKNetWork
+    - EKPlugins/Extension
+    - EKPlugins/Tool
+  - EKPlugins/MediaPlayer (0.9.9):
+    - EKNetWork
+    - EKPlugins/JSWebView
+  - EKPlugins/Tool (0.9.9):
+    - EKNetWork
+    - EKPlugins/Extension
+  - GTMBase64 (1.0.1)
+  - ObjectMapper (3.5.1)
+  - RegExCategories (1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - EKPlugins (~> 0.9.8)
+  - ObjectMapper (~> 3.4)
+
+SPEC REPOS:
+  "git@gitlab.ekwing.com:ios/EKSpecs.git":
+    - EKNetWork
+    - EKPlugins
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - GTMBase64
+    - RegExCategories
+  trunk:
+    - Alamofire
+    - ObjectMapper
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  EKNetWork: d4994958aab257a218aebdd4f217f6221cee1bcc
+  EKPlugins: 410ccb7101e41e0d11b932716a4195333f317241
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+
+PODFILE CHECKSUM: 7bd81671ea53f36baf92de224f13148141eec027
+
+COCOAPODS: 1.8.3
